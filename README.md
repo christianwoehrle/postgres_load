@@ -1,7 +1,7 @@
 # postgres_load
-[![GoDoc](https://godoc.org/github.com/christianwoehrle/grafana-validator?status.svg)](https://godoc.org/github.com/christianwoehrle/grafana-validator)
-[![CircleCI](https://img.shields.io/circleci/project/github/christianwoehrle/grafana-validator.png)](https://circleci.com/gh/christianwoehrle/grafana-validator)
-[![Go Report Card](https://goreportcard.com/badge/github.com/christianwoehrle/grafana-validator)](https://goreportcard.com/report/github.com/christianwoehrle/grafana-validator)
+[![GoDoc](https://godoc.org/github.com/christianwoehrle/postgres_load?status.svg)](https://godoc.org/github.com/christianwoehrle/grafana-validator)
+[![CircleCI](https://img.shields.io/circleci/project/github/christianwoehrle/postgres_load.png)](https://circleci.com/gh/christianwoehrle/grafana-validator)
+[![Go Report Card](https://goreportcard.com/badge/github.com/christianwoehrle/postgres_load)](https://goreportcard.com/report/github.com/christianwoehrle/grafana-validator)
 
 Continuously inserts into a table
 
