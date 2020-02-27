@@ -3,8 +3,7 @@
 [![CircleCI](https://img.shields.io/circleci/project/github/christianwoehrle/postgres_load.png)](https://circleci.com/gh/christianwoehrle/postgres_load)
 [![Go Report Card](https://goreportcard.com/badge/github.com/christianwoehrle/postgres_load)](https://goreportcard.com/report/github.com/christianwoehrle/postgres_load)
 
-Continuously inserts into a table
-
+Continuously inserts rows into a table, I use that for a failover test in AWS
 ## setup database
 ```
 docker run --name some-postgres -p 5432:5432 -e POSTGRES_PASSWORD=password -d postgres
