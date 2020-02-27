@@ -41,7 +41,7 @@ func insert(connStr string) {
 			log.Println("Error inserting row")
 			return
 		} else {
-			log.Println("Row %d inserted: %s", id, t.String())
+			log.Printf("Row %d inserted: %s \n", id, t.String())
 		}
 	}
 }
