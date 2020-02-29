@@ -3,6 +3,9 @@
 [![CircleCI](https://img.shields.io/circleci/project/github/christianwoehrle/postgres_load.png)](https://circleci.com/gh/christianwoehrle/postgres_load)
 [![Go Report Card](https://goreportcard.com/badge/github.com/christianwoehrle/postgres_load)](https://goreportcard.com/report/github.com/christianwoehrle/postgres_load)
 
+This is a simple load generating app that I use to check if a database failover is handled correctly.
+
+
 Continuously inserts rows into a table, I use that for a failover test in AWS
 ## setup database
 ```

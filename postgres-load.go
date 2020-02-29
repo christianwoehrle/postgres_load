@@ -46,7 +46,7 @@ func insert(connStr string) {
 		log.Print("about to insert row ... ")
 		err = db.QueryRow("INSERT INTO id(created_at, updated_at) VALUES($1, $2 ) RETURNING id", t, t).Scan(&id)
 		if err != nil {
-			log.Println("  --> error inserting row")
+			log.Println("  --> error inserting row" + err.Error())
 			return
 		} else {
 			log.Printf(" --> row %d inserted: %s \n", id, t.String())
